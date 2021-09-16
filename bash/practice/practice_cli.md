@@ -1,4 +1,4 @@
-# CLI Practice
+# CLI - Practice
 
 When in doubt remember to check the manual pages from the commands (e.g. `man ls`). Also, use google and the many resources available online.
 
@@ -148,4 +148,4 @@ NOTE: Use `seq`
 
 2- Create a copy of `myloop.sh` and named it `myloop_copy.sh`
 
-3- Change the permissions of `myloop_copy.sh` to allow read,write, and execution by all users and groups  
+3- Change the permissions of `myloop_copy.sh` to allow read,write, and execution by all users and groups
