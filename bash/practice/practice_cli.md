@@ -81,7 +81,7 @@ git clone https://github.com/rivera10/bash.git
 
 3- use `cat` to open the entire file in the command line
 
-## Grep
+## `grep`
 
 1- Use `grep` to get the sequence named `example_fasta_2` from the file `example.fasta`
 
@@ -95,9 +95,57 @@ NOTE: Use the `man` and look for the options `-A and -B`
 NOTE: Use `less` to know how many lines you need to extract
 
 
-## Cut
+## `cut`
 
 1- Use the file `species.txt` and cut the first column
 
+2- Use the file `ToCut.txt` and cut the second column
 
-2- Use the file
+3- Use the file `ToCut.txt` and cut the second column and store the results in the file `mycut.txt`
+
+4- Repeat step 3 but cut the firt column and append the results to the file `mycut.txt`
+
+
+## `sort`
+
+1- Use file `ToSort.txt` and sort the file using column one and in numerical order
+
+2- Repeat step 1 but now instead of numerical order you want to have the reverse order
+
+
+## `wc`
+
+1- Use `wc` to get the number of lines in file `sequence.gp`
+
+2- How many chacaters are in the file?
+
+
+## `uniq`
+
+1- Use file `ToUniq.txt` and get the unique genes from it
+
+2- get the count number for each gene in file `ToUniq.txt`
+
+## Pipes
+
+1- Open file `longString.txt`, extract the nucleotides line and count the number of nucleotides
+
+2- Open file `genes.csv`, remove the first line (header), sort the file, get the unique genes, extract the genes with annotation (i.e. yes in last column), and count the final nummber of genes
+
+## Scripts
+
+1- Create a `bash` script that creates a new directory named `loop` and inside that directory it creates 10 other directories with the prefix `gene_`. Print each name after it creates the directory
+
+NOTE: Use a `for` loop for the second part and variables with echo for the third part
+
+2- Create a `bash` script named `myloop.sh` that prints the numbers from 1 to 20
+
+NOTE: Use `seq`
+
+## Permissions
+
+1- Change the permissions of the `myloop.sh` file to allow the user and group execute the file. Make sure only the user has privilage to read and write.
+
+2- Create a copy of `myloop.sh` and named it `myloop_copy.sh`
+
+3- Change the permissions of `myloop_copy.sh` to allow read,write, and execution by all users and groups  
