@@ -63,7 +63,7 @@ Homo sapiens
 
 NOTE: Move the file witout changing directories
 
-## Clonning a repository
+## Cloning a repository
 
 1- Clone the repository to be used in the other exercises
 ```
